@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>io.github.jpcasas.ibm.plugin.pom</groupId>
+        <artifactId>ibm-pom-parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <groupId>io.github.jpcasas.ibm.plugin.assemblies</groupId>
+    <artifactId>ibm-integration-assemblies</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <name>ibm-integration-assemblies</name>
+    <description>Assemblies to support ACE MQ AND APIC Artifacts Packaging</description>
+    <url>https://github.com/jpcasas/ibm-integration-assemblies.git</url>
+
+    <scm>
+        <connection>scm:git:git://github.com/jpcasas/ibm-integration-assemblies.git</connection>
+        <developerConnection>scm:git:https://github.com/jpcasas/ibm-integration-assemblies.git</developerConnection>
+        <url>http://github.com/jpcasas/ibm-integration-assemblies/tree/master</url>
+      <tag>HEAD</tag>
+  </scm>
+
+</project>
